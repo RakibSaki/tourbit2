@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.star, .planet {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: calc(50vh - var(--r));
+    left: calc(50vw - var(--r));
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.star {
+    --r:25px;
+}
+
+.planet {
+    --r: 25px;
+}
